@@ -1,17 +1,12 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
-
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
-);
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+import ReactDOM from "react-dom/client";
+//import CardUI from "./Card";
+//import CardList from "./CardList";
+//import F5 from "./Five";
+//import Two from "./Two";
+//import Eight from "./Two";
+//import Three from "./Three";
+import Four from "./Four";
+//import One from "./One";
+const element = document.getElementById('root');
+const rootref=ReactDOM.createRoot(element);
+rootref.render(<div><Four/></div>)
